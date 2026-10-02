@@ -2,7 +2,11 @@
 
 ## Description
 
-Just a dream-project economy plugin that has a couple of pretty cool features (in my opinion):
+Just my dream-project economy plugin that has a couple of pretty cool features (at least in my opinion):
+- Sending money to other players
+- Auction House for selling custom items [WIP]
+- Fluctuating prices influenced by recent buying/selling habits based on the whole server (See more below!) [WIP]
+- And more to come!
 
 ## Commands
 
@@ -18,3 +22,7 @@ Just a dream-project economy plugin that has a couple of pretty cool features (i
 | /sellall [itemname] | Sells all the item(s) that match the one you specified |
 | /ah | [**In-development**] Opens the auction house |
 | /send [playername] [amount] | Lets you send any amount to the specified player |
+
+## Fluctuating Prices
+
+As mentioned in the description, this plugin has a very cool pricing system. To be put in simple terms, supply and demand. In a more in-depth explanation the plugin has a section that only listens for the {/buy} and {/sell} commands and whenever someone buys something from the shop gui. Then after logging the recent activity, it compares it to
