@@ -2,7 +2,7 @@
 
 ## Description
 
-Just my dream-project economy plugin that has a couple of pretty cool features (at least in my opinion):
+So what actually is this? It's just my dream-project economy plugin that has a couple of pretty cool features (at least in my opinion):
 - Sending money to other players
 - Auction House for selling custom items [WIP]
 - Fluctuating prices influenced by recent buying/selling habits based on the whole server (See more below) [WIP]
