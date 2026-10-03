@@ -37,7 +37,7 @@ flowchart LR
 | ```/ah mine``` | **[In-Development]** Opens the auction house and shows only your listings |
 | ```/ah claim``` | **[In-Development]** Collects the items in your claim box |
 | ```/ah cancel [id]``` | **[In-Development]** Takes one of your listings off sale by its number |
-| ```/send [playername] [amount]``` | Lets you send any amount to the specified player |
+| ```/pay OR /send [playername] [amount]``` | Lets you send any amount to the specified player |
 
 <details>
 <summary>Moderator Commands</summary>
