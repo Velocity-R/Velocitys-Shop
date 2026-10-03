@@ -48,7 +48,7 @@ flowchart LR
 | --- | --- |
 | ```/eco give [playername] [amount]``` | Gives the player a specified amount of money |
 | ```/eco take [playername] [amount]``` | Removes the specified amount from the player |
-| ```/set [playername] [amount]``` | Sets the specified player to the amount stated |
+| ```/eco set [playername] [amount]``` | Sets the specified player to the amount stated |
 | ```/eco reload``` | Reloads the plugin which allows for server owner to make changes without restarting the server |
 | ```/eco stock [item]``` | show an item's stock|
 | ```/eco stock [item/all] set [amount]``` |set an exact amount |
@@ -66,3 +66,19 @@ As mentioned in the description, this plugin has a very cool pricing system. To 
 ## Customization
 
 A pretty cool feature about this plugin is the customization built-in, the shop itself has 3 different types of stock; unlimited, where you can buy as much as you want and sell as much as you want; uncapped, where you can sell as much as you want but only buy as much as what everyone else has sold; and finite, you can only sell as much as the stock has space for (stock can be any value between 1 and 10,000,000). Not only that, but dealing with the actual sections is pretty simple, you're able to put any section anywhere, and any item anywhere. But they are in preset areas in case you don't want to.
+
+---
+
+## Building and Installing
+
+- **Build:** `gradlew.bat build` (Windows) or `./gradlew build`
+- **Output:** `app/build/libs/VelocitysShop-1.0.0.jar`
+- **Install:** copy the jar into your server's `plugins/` folder and restart.
+
+Compiled for Java 21 against the Spigot API 1.21.11 (`api-version: 1.21`). It runs on Spigot and Paper 1.21.x, and newer servers should load it too. The Spigot API is `compileOnly`, so the jar only contains this plugin's own classes and resources. The version in `plugin.yml` is filled in from `app/build.gradle.kts` when the jar is built.
+
+On first start the plugin creates `plugins/VelocitysShop/` with `config.yml`, `messages.yml` and `shop.yml`. Existing copies are **never overwritten**, so after updating the jar a server keeps its old `shop.yml` and `messages.yml`. Rename one to have the newest default generated again.
+
+It has **no third-party dependencies**: no Vault, no database, no bundled libraries.
+- Some default items only exist in newer Minecraft versions (pale oak needs 1.21.4+, the craftable saddle 1.21.6+). Older servers skip them with a warning.
+- The economy is not a Vault provider, so Vault-only plugins can't see balances.
