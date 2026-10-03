@@ -1,7 +1,5 @@
 # Velocity's Shop
 
-```This branch works from 1.20.5 to current versions```
-
 ## Description
 
 So what actually is this? It's just my dream-project economy plugin that has a couple of pretty cool features (at least in my opinion):
@@ -59,9 +57,13 @@ flowchart LR
 
 </details>
 
-## Fluctuating Prices
+## Fluctuating Prices [In-Development]
 
-As mentioned in the description, this plugin has a very cool pricing system. To be put in simple terms, supply and demand. In a more in-depth explanation the plugin has a section that only listens for the ```/buy``` and ```/sell``` commands and whenever someone buys something from the shop gui. Then after logging the recent activity, it then compares that to previous data to determine how much the price will vary by.
+As mentioned in the description, this plugin has a very cool pricing system. To be put in simple terms, it's supply and demand. In a more in-depth explanation the plugin has a section that only listens for the ```/buy``` and ```/sell``` commands and whenever someone buys something from the shop gui. Then after logging the recent activity, it then compares that to previous data to determine how much the price will vary by. Ex. 
+
+## Auction House [In-Development]
+
+This special section of the shop allows for players to sell (or resell) custom items (enchanted tools, custom banners, etc.) for any price. Players can only have up to 10 auction listings at one time and all listings stay up for 24 hours automatically, or players can pick their own time(s) of 6 hours, 12 hours, 24 hours, or 48 hours.
 
 ## Customization
 
