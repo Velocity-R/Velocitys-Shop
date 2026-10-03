@@ -7,7 +7,7 @@
 So what actually is this? It's just my dream-project economy plugin that has a couple of pretty cool features (at least in my opinion):
 - Sending money to other players
 - Auction House for selling custom items
-- Fluctuating prices influenced by recent buying/selling habits based on the whole server (See more below) [WIP]
+- Fluctuating prices influenced by recent buying/selling habits based on the whole server (See more below)
 - And more to come
 
 ## Roadmap
@@ -16,8 +16,8 @@ So what actually is this? It's just my dream-project economy plugin that has a c
 flowchart LR
     %% Phase# --> Phase#[Major Update: ] P#_Sub#[Minor Update: ]
 
-    Start[Initial Shop Release] --> Phase1[Major Update: Fluctuating Pricing]
-    Phase1 --> Phase2[Major Update: Auction House]
+    Start[Initial Shop Release] --> Phase1([Major Update: Fluctuating Pricing - DONE])
+    Phase1 --> Phase2([Major Update: Auction House - DONE])
     Phase2 --> Phase3[Major Update: TBD]
     Phase3 --> End[Major Update: TBD]
 ```
