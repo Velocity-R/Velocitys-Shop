@@ -50,6 +50,12 @@ flowchart LR
 | ```/eco take [playername] [amount]``` | Removes the specified amount from the player |
 | ```/set [playername] [amount]``` | Sets the specified player to the amount stated |
 | ```/eco reload``` | Reloads the plugin which allows for server owner to make changes without restarting the server |
+| ```/eco stock [item]``` | show an item's stock|
+| ```/eco stock [item/all] set [amount]``` |set an exact amount |
+| ```/eco stock [item/all] add [amount]``` | restock |
+| ```/eco stock [item/all] remove [amount]``` | take stock away (stops at 0) |
+| ```/eco stock [item/all] reset``` | back to the starting stock |
+
 
 </details>
 
