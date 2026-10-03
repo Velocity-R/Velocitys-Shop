@@ -65,10 +65,15 @@ As mentioned in the description, this plugin has a very cool pricing system. To 
 
 This special section of the shop allows for players to sell (or resell) custom items (enchanted tools, custom banners, etc.) for any price. Players can only have up to 10 auction listings at one time and all listings stay up for 24 hours automatically, or players can pick their own time(s) of 6 hours, 12 hours, 24 hours, or 48 hours.
 
-## Customization
+## Shop Modes [In-Development]
 
 A pretty cool feature about this plugin is the customization built-in, the shop itself has 3 different types of stock; unlimited, where you can buy as much as you want and sell as much as you want; uncapped, where you can sell as much as you want but only buy as much as what everyone else has sold; and finite, you can only sell as much as the stock has space for (stock can be any value between 1 and 10,000,000). Not only that, but dealing with the actual sections is pretty simple, you're able to put any section anywhere, and any item anywhere. But they are in preset areas in case you don't want to.
 
 ## Dependancies
 
-This plugin has **NO** dependancies, simply download it, put it in your server's plugins folder, and restart you server.
+This plugin has **NO** dependancies, simply download it, put it in your server's plugins folder, and restart your server.
+
+## Branch Info
+
+This branch works on 1.20.5 to all current versions.
+Tested version(s): 1.20.5 & 1.21.11
