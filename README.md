@@ -34,7 +34,11 @@ flowchart LR
 | ```/sell``` | Sells the item that's in your hand |
 | ```/sellallhand``` | Sells all the item(s) that are in your hand & inventory |
 | ```/sellall [itemname]``` | Sells all the item(s) that match the one you specified |
-| ```/ah``` | [**In-development**] Opens the auction house |
+| ```/ah``` | Opens the auction house |
+| ```/ah sell [price]``` | Puts the entire stack of item(s) in your hand up for sale |
+| ```/ah mine``` | Opens the auction house and shows only your listings |
+| ```/ah claim``` | Collects the items in your claim box |
+| ```/ah cancel [id]``` | Takes one of your listings off sale by its number |
 | ```/send [playername] [amount]``` | Lets you send any amount to the specified player |
 
 <details>
@@ -42,9 +46,10 @@ flowchart LR
     
 | Command | Description |
 | --- | --- |
-| ```/give [playername] [amount]``` | Gives the player a specified amount of money |
+| ```/eco give [playername] [amount]``` | Gives the player a specified amount of money |
+| ```/eco take [playername] [amount]``` | Removes the specified amount from the player |
 | ```/set [playername] [amount]``` | Sets the specified player to the amount stated |
-| ```TBD``` | TBD |
+| ```/eco reload``` | Reloads the plugin which allows for server owner to make changes without restarting the server |
 
 </details>
 
