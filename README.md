@@ -6,8 +6,8 @@
 
 So what actually is this? It's just my dream-project economy plugin that has a couple of pretty cool features (at least in my opinion):
 - Sending money to other players
-- Auction House for selling custom items
-- Fluctuating prices influenced by recent buying/selling habits based on the whole server (See more below)
+- Auction House for selling custom items [WIP]
+- Fluctuating prices influenced by recent buying/selling habits based on the whole server (See more below) [WIP]
 - And more to come
 
 ## Roadmap
@@ -16,8 +16,8 @@ So what actually is this? It's just my dream-project economy plugin that has a c
 flowchart LR
     %% Phase# --> Phase#[Major Update: ] P#_Sub#[Minor Update: ]
 
-    Start([Initial Shop Release]) --> Phase1([Major Update: Fluctuating Pricing - DONE])
-    Phase1 --> Phase2([Major Update: Auction House - DONE])
+    Start[Initial Shop Release] --> Phase1[Major Update: Fluctuating Pricing]
+    Phase1 --> Phase2[Major Update: Auction House]
     Phase2 --> Phase3[Major Update: Ask for any other features!]
     Phase3 --> End[Major Update: TBD]
 ```
@@ -34,11 +34,11 @@ flowchart LR
 | ```/sell``` | Sells the item that's in your hand |
 | ```/sellallhand``` | Sells all the item(s) that are in your hand & inventory |
 | ```/sellall [itemname]``` | Sells all the item(s) that match the one you specified |
-| ```/ah``` | Opens the auction house |
-| ```/ah sell [price]``` | Puts the entire stack of item(s) in your hand up for sale |
-| ```/ah mine``` | Opens the auction house and shows only your listings |
-| ```/ah claim``` | Collects the items in your claim box |
-| ```/ah cancel [id]``` | Takes one of your listings off sale by its number |
+| ```/ah``` | **[In-Development]** Opens the auction house |
+| ```/ah sell [price]``` | **[In-Development]** Puts the entire stack of item(s) in your hand up for sale |
+| ```/ah mine``` | **[In-Development]** Opens the auction house and shows only your listings |
+| ```/ah claim``` | **[In-Development]** Collects the items in your claim box |
+| ```/ah cancel [id]``` | **[In-Development]** Takes one of your listings off sale by its number |
 | ```/send [playername] [amount]``` | Lets you send any amount to the specified player |
 
 <details>
@@ -50,11 +50,11 @@ flowchart LR
 | ```/eco take [playername] [amount]``` | Removes the specified amount from the player |
 | ```/eco set [playername] [amount]``` | Sets the specified player to the amount stated |
 | ```/eco reload``` | Reloads the plugin which allows for server owner to make changes without restarting the server |
-| ```/eco stock [item]``` | show an item's stock|
-| ```/eco stock [item/all] set [amount]``` |set an exact amount |
-| ```/eco stock [item/all] add [amount]``` | restock |
-| ```/eco stock [item/all] remove [amount]``` | take stock away (stops at 0) |
-| ```/eco stock [item/all] reset``` | back to the starting stock |
+| ```/eco stock [item]``` | sShow an item's stock|
+| ```/eco stock [item/all] set [amount]``` | Set an exact amount |
+| ```/eco stock [item/all] add [amount]``` | Restock |
+| ```/eco stock [item/all] remove [amount]``` | Take stock away (stops at 0) |
+| ```/eco stock [item/all] reset``` | Back to the starting stock |
 
 
 </details>
