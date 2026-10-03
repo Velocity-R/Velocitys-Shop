@@ -1,5 +1,7 @@
 # Velocity's Shop
 
+```This branch works from 1.20.5 to current versions```
+
 ## Description
 
 So what actually is this? It's just my dream-project economy plugin that has a couple of pretty cool features (at least in my opinion):
