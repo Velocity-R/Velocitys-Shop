@@ -75,5 +75,5 @@ This plugin has **NO** dependancies, simply download it, put it in your server's
 
 ## Branch Info
 
-This branch works on 1.20.5 to all current versions.
-Tested version(s): 1.20.5 & 1.21.11
+- This branch works on 1.20.5 to all current versions.
+- Tested version(s): 1.20.5 & 1.21.11
