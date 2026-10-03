@@ -12,7 +12,8 @@ So what actually is this? It's just my dream-project economy plugin that has a c
 
 ```mermaid
 flowchart LR
-    
+    %% Phase# --> Phase#[Major Update: ] P#_Sub#[Minor Update: ]
+
     Start[Initial Shop Release] --> Phase1[Major Update: Fluctuating Pricing]
     Phase1 --> Phase2[Major Update: Auction House]
     Phase2 --> Phase3[Major Update: TBD]
