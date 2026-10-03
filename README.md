@@ -35,6 +35,17 @@ flowchart LR
 | ```/ah``` | [**In-development**] Opens the auction house |
 | ```/send [playername] [amount]``` | Lets you send any amount to the specified player |
 
+<details>
+<summary>Moderator Commands</summary>
+    
+| Command | Description |
+| --- | --- |
+| ```/give [playername] [amount]``` | Gives the player a specified amount of money |
+| ```/set [playername] [amount]``` | Sets the specified player to the amount stated |
+| ```TBD``` | TBD |
+
+</details>
+
 ## Fluctuating Prices
 
 As mentioned in the description, this plugin has a very cool pricing system. To be put in simple terms, supply and demand. In a more in-depth explanation the plugin has a section that only listens for the ```/buy``` and ```/sell``` commands and whenever someone buys something from the shop gui. Then after logging the recent activity, it then compares that to previous data to determine how much the price will vary by.
