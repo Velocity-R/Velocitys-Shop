@@ -1,4 +1,4 @@
-# Velocity's Shop
+# Velocity's Shop [WIP]
 
 ## Description
 
